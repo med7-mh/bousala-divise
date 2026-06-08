@@ -11,10 +11,11 @@ export default defineConfig(() => {
       tailwindcss(),
       VitePWA({
         registerType: 'autoUpdate',
-        includeAssets: ['apple-touch-icon.png', 'pwa-192x192.png', 'pwa-512x512.png'],
+        includeAssets: ['app-icon.svg', 'apple-touch-icon.png', 'pwa-192x192.png', 'pwa-512x512.png'],
         manifest: {
           name: 'صراف بلس',
           short_name: 'صراف بلس',
+          id: '/',
           start_url: '/',
           description: 'تطبيق إدارة الصرافة وتبديل العملات',
           theme_color: '#194f41',
