@@ -14,12 +14,17 @@ export default defineConfig(() => {
         includeAssets: ['apple-touch-icon.png', 'pwa-192x192.png', 'pwa-512x512.png'],
         manifest: {
           name: 'صراف بلس',
-          short_name: 'صراف',
+          short_name: 'صراف بلس',
           description: 'تطبيق إدارة الصرافة وتبديل العملات',
           theme_color: '#194f41',
           background_color: '#f8fafc',
           display: 'standalone',
           icons: [
+            {
+              src: 'app-icon.svg',
+              sizes: '512x512',
+              type: 'image/svg+xml'
+            },
             {
               src: 'pwa-192x192.png',
               sizes: '192x192',
@@ -37,6 +42,9 @@ export default defineConfig(() => {
               purpose: 'any maskable'
             }
           ]
+        },
+        devOptions: {
+          enabled: true
         }
       })
     ],
