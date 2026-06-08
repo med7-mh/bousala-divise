@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="120" fill="#194f41"/>
+  <!-- Up Arrow (Green) -->
+  <path d="M150 240 L210 180 L270 240" stroke="#10b981" fill="none" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M210 180 L210 332" stroke="#10b981" fill="none" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Down Arrow (White) -->
+  <path d="M362 272 L302 332 L242 272" stroke="#ffffff" fill="none" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M302 332 L302 180" stroke="#ffffff" fill="none" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

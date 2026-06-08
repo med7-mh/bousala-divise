@@ -53,7 +53,7 @@ export default function InstallApp() {
           رجوع
         </Button>
 
-        <img src="/pwa-192x192.png" alt="App Icon" style={{ width: 80, height: 80, borderRadius: 20, marginBottom: 16, marginTop: 40, boxShadow: '0 8px 16px rgba(0,0,0,0.2)' }} />
+        <img src="/app-icon.svg" alt="App Icon" style={{ width: 80, height: 80, borderRadius: 20, marginBottom: 16, marginTop: 40, boxShadow: '0 8px 16px rgba(0,0,0,0.2)' }} />
         <Typography variant="h4" sx={{ fontWeight: '800', color: 'white', mb: 1 }}>
           تنزيل تطبيق صراف بلس
         </Typography>
