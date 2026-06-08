@@ -11,7 +11,7 @@ export default defineConfig(() => {
       tailwindcss(),
       VitePWA({
         registerType: 'autoUpdate',
-        includeAssets: ['app-icon.svg', 'apple-touch-icon.png', 'pwa-192x192.png', 'pwa-512x512.png'],
+        includeAssets: ['app-icon.svg'],
         manifest: {
           name: 'صراف بلس',
           short_name: 'صراف بلس',
@@ -23,25 +23,16 @@ export default defineConfig(() => {
           display: 'standalone',
           icons: [
             {
-              src: '/app-icon.svg',
-              sizes: '512x512',
-              type: 'image/svg+xml'
+              src: 'app-icon.svg',
+              sizes: '48x48 72x72 96x96 128x128 144x144 192x192 256x256 384x384 512x512',
+              type: 'image/svg+xml',
+              purpose: 'any'
             },
             {
-              src: '/pwa-192x192.png',
-              sizes: '192x192',
-              type: 'image/png'
-            },
-            {
-              src: '/pwa-512x512.png',
-              sizes: '512x512',
-              type: 'image/png'
-            },
-            {
-              src: '/pwa-512x512.png',
-              sizes: '512x512',
-              type: 'image/png',
-              purpose: 'any maskable'
+              src: 'app-icon.svg',
+              sizes: '48x48 72x72 96x96 128x128 144x144 192x192 256x256 384x384 512x512',
+              type: 'image/svg+xml',
+              purpose: 'maskable'
             }
           ]
         },
